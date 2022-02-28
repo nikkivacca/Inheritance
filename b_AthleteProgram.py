@@ -7,6 +7,7 @@ quarterback = ac.Football_Player(6.2,250,0.15,'quarterback','offense')
 
 print("The height for the generic athlete is:",generic_athlete.get_ht())
 
+# doesn't work because tryong to use method from subclass when in the super class
 #print("The team of the generic athlete is:",generic_athlete.get_team())
 
 print("The weight for the football player is:",quarterback.get_wt())
